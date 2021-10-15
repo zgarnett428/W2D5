@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, sans-serif
+}
+
+body {
+    margin: 50px;
+    background-color: rgb(231, 246, 227)
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.ingredients-list {
+    list-style: square inside;
+}
+
+.directions {
+        list-style: numeric;
+}
+
+.directions :nth-of-type(2n) {
+    background-color: rgb(202, 228, 204);
+}
+
+header > img {
+    width: 100px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-image: url(./stars.png);
+}
+
+input[type="radio"]:hover {
+    background-image: url(./stars.png);
+    background-position: center;
+}
+
+input[type="radio"]:checked {
+    background-image: url(./stars.png);
+    background-position: bottom;
+}
+
+select[id="expertise"] {
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    outline: none;
+    background-color: gold;
+}
+
+input[type="submit"]:hover {
+        -webkit-filter: brightness(90%);
+    }
+
+.user_review {
+    border-top: 1px solid black;
+}
